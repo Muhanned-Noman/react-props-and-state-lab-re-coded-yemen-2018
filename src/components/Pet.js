@@ -4,7 +4,7 @@ const Pet = ({ pet: { id, name, type, gender, age, wight, isAdopted }, onAdoptPe
   <div className="card">
     <div className="content">
       <a className="header">
-        {name} {gender === 'female' ? 'female' : 'male'}
+        {name} {gender === 'female' ? '♀' : '♂'}
       </a>
       <div className="meta">
         <span className="date">{type}</span>
