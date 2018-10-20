@@ -15,7 +15,7 @@ class App extends React.Component {
     }
   }
   
-  fetchPets = () => {
+  fetch = () => {
     let endpoint = '/api/pets';
 
     if (this.state.filters.type !== 'all') {
